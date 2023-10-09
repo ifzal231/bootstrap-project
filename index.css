@@ -1,0 +1,327 @@
+/* #carouselExampleCaptions .container{ 
+    transform: translateY(-600px);
+    width: 100%;
+    text-align: center;
+    line-height: 7;
+    color: white;
+    
+    
+}
+
+#carouselExampleCaptions .carousel-inner .ac .container #a a {
+    margin-top: 100%;
+} */
+
+/* .Thumbnail{
+    margin-top: -100px;
+} */
+
+/* .slide-head{
+    transform: translateY(-520px);
+    position: absolute;
+    bottom: 200px;
+    line-height: 5;
+} */
+body{
+    overflow-x: hidden;
+}
+.row-cols-lg-3>* {
+    flex: 0 0 auto;
+    align-items: center;
+    /* width: 31.333333%; */
+    text-align: center;
+    justify-content: center;
+}
+
+#text1{
+width: 100%;
+}
+#text2{
+    width: 100%;
+}
+#ifzal img:hover {
+    transform: scale(1.05);
+    box-shadow: #130d0d;
+
+}
+
+.col img:hover {
+    transform: scale(1.05);
+    box-shadow: #130d0d;
+
+}
+.col h3:hover {
+    transform: scale(1.05);
+    box-shadow: #130d0d;
+
+}
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+    justify-content: center;
+}
+
+.me-5{
+    margin-right: 0 !important;
+}
+.under {
+    position: absolute;
+    right: 15%;
+    bottom: 25.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.my-4 {
+    margin-top: 1.5rem!important;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem!important;
+}
+
+#ifzalrs{
+    width: 100%;
+}
+.form-control {
+    display: block;
+    width: 80%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* .offset-md-1 {
+    margin-left: 23.333333%;
+} */
+
+.g-3, .gy-3 {
+    --bs-gutter-y: 1rem;
+}
+
+
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+.food{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 30vh;
+    gap: 2%;
+}
+
+.food img:hover{
+    transform: scale(115%);
+    transition:all 0.8s ;
+}
+
+.foodimg{
+    width: 100%;
+    overflow: hidden;
+}
+.foodimg img{
+    width: 100%;
+}
+
+.bg{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 30vh;
+    gap: 2%;
+}
+
+.bg img:hover{
+    transform: scale(115%);
+    transition: all 0.8s;
+}
+
+.bgimg{
+    width: 100%;
+    overflow: hidden;
+}
+
+.pool{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    width: 70%;
+    margin: auto;
+    height: auto;
+    gap: 2%;
+    overflow: hidden;
+}
+.swimming{
+    overflow: hidden;
+    height: 36vh;
+}
+.swimming img:hover{
+    transform: scale(115%);
+    transition:all 0.8s;
+}
+.swimming img{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+.bed{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 30vh;
+    gap: 2%;
+}
+
+
+.roomimg{
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+}
+
+.roomimg img{
+    transition:all 0.8s ;
+    width: 100%;
+}
+
+.roomimg img:hover{
+    transform: scale(1.15);
+}
+
+#iffu{
+    padding-top: 0px;
+}
+
+.col-md-5{
+    overflow: hidden;
+    width: 30%;
+}
+
+
+ .col-md-5 img {
+   width: 100%;
+    transition: all 1s;
+    
+}
+
+
+.col-md-5 img:hover{
+    transform: scale(1.15);
+    
+}
+
+.pb-10 {
+    padding-bottom: 2.5rem!important;
+}
+.pt-12 {
+    padding-top: 3.5rem!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.hs{
+    padding-bottom: 30px;
+}
+
+.hotel{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 30vh;
+    gap: 2%;
+}
+
+.hotel img:hover{
+    transform: scale(115%);
+    transition:all 0.8s ;
+}
+
+.hotelimg{
+    width: 100%;
+    overflow: hidden;
+}
+.hotelimg img{
+    width: 100%;
+}
+
+
+.team{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 2%;
+}
+
+.team img:hover{
+    transform: scale(103%);
+    transition: all 0.5s;
+}
+
+.teamimg{
+    width: 100%;
+    overflow: hidden;
+}
+.teamimg img{
+    width: 100%;
+}
+
+#adnan{
+    position: absolute !important;
+    top: 0 !important;
+}
+
+ /* .class {
+    top: 17px;
+    position: relative;
+    left: 180px;
+} */
+
+
+.page {
+    margin-left: 22%;
+}
+/* RESPONSIVE */
+
+@media(max-width:900px){
+    .p-4 {
+        padding: 0.5rem!important;
+    }
+
+    .under {
+        position: absolute;
+        right: 15%;
+        bottom: 31.25rem;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media(max-width:450px){
+    .under{
+        bottom: 33.25rem; 
+    }
+}
+
+
+
+

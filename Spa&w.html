@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #000000cc;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/img/logo-light.png" alt="Bootstrap" width="100" height="100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="room&suite.html" role="button" data-bs-toggle="dropdown" aria-expanded="page">
+              Rooms & Suties
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/suite.html">Room 1</a></li>
+              <li><a class="dropdown-item" href="#">Room 2</a></li>
+              <li><a class="dropdown-item" href="#">Room 3</a></li>
+              <li><a class="dropdown-item" href="#">Single room 1</a></li>
+              <li><a class="dropdown-item" href="#">Single room 2</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/restaurnt.html">Restaurant</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/Spa&w.html">Spa & Wellness</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/special.html">Special offers</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">About</a></li>
+              <li><a class="dropdown-item" href="#">Facilities</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+              <li><a class="dropdown-item" href="#">Coming soon</a></li>
+              <li><a class="dropdown-item" href="#">Blank page</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
+        aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner active">
+      <div class="carousel-item">
+        <img src="/img/spa-1.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="/img/spa-2.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="/img/spa-3.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section id="about" class="pt-16 pb-14 overflow-x-hidden overflow-y-hidden position-relative">
+    <div class="position-absolute start-0 top-0 bottom-0 w-25 image-wrapper bg-image bg-full d-none d-xl-block mobile" data-image-src="./assets/img/background/bg2.png" style="background-image: url(&quot;./assets/img/background/bg2.png&quot;);"></div>
+    <div class="container">
+        <div class="row g-0 g-lg-10" data-cues="fadeIn" data-disabled="true">
+            <div class="col-12 col-xl-6 col-lg-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                <div class="mb-10">
+                    <!-- Description -->
+                    <div class="mb-6 mt-4">
+                        <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Laseta Spa</span>
+                        <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Overview</h2>
+                    </div>
+                    <p class="mb-6"> Lorem ipsum dolor sit amet, nisl scaevola has ne, veniam detracto et mel, ei eum dolor partiendo repudiare. Docendi erroribus at has, nonumy equidem mea eu, sed alienum perfecto eleifend ne. Suas insolens et nam, sit congue fastidii ea, his facer meliore te. Duo laoreet patrioque similique ad. Nam ei impetus definiebas, has ea essent expetenda. Libris accusam principes ut vix, vel ad partem delectus, ad eos posse mundi. </p>
+                    <p class="mb-6"> Open daily: <strong>6:30 AM - 8.30 PM</strong>
+                    </p>
+                    <a href="#" class="fw-semibold d-inline-block fsm-1 text-uppercase ls-2 h-sub-font text-decoration-none">
+                        <span class="text-body-secondary ">Book Service</span>
+                        <i class="hicon hicon-flights-one-ways"></i>
+                    </a>
+                    <!-- Description -->
+                </div>
+            </div>
+            <div class="col-12 col-xl-6 col-lg-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
+                <div class="position-relative mb-16 mt-4">
+                    <div class="position-absolute top-0 end-0 start-0 bottom-0 bg-body-tertiary h-100 w-100 mt-16 ms-16"></div>
+                    <figure class="figure mb-0 w-100 position-relative z-2">
+                        <img src="img/spa-1-1.jpg"  class="figure-img img-fluid mb-0 w-100" alt="...">
+                    </figure>
+                    <div class="position-absolute top-50 start-50 translate-middle z-3">
+                        <a class="btn-video-play media-glightbox" href="./assets/media/v2.mp4"><span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="booking" class="pt-16 pb-16 bg-body-tertiary position-relative text-center">
+    <div class="container">
+        <div class="row justify-content-center" data-cues="fadeIn" data-disabled="true">
+            <div class="col-12" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                <!-- Price -->
+                <div class="mb-8">
+                    <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4 mt-4">Book &amp; Experience</span>
+                    <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Book Service</h2>
+                </div>
+                <!-- Price -->
+                <!-- Contact -->
+                <div class="row justify-content-center mb-8">
+                    <div class="col-12 col-xl-3 col-lg-4 col-md-5">
+                        <div class="text-center mb-6">
+                            <i class="hicon hicon-200 hicon-telephone text-light mb-4"></i>
+                            <span class="d-block text-uppercase h-sub-font fsm-2 fw-semibold ls-1">+33 (0) 1 89 78 67 56</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-3 col-lg-4 col-md-5">
+                        <div class="text-center mb-6">
+                            <i class="hicon hicon-200 hicon-email-envelope text-primary mb-4"></i>
+                            <span class="d-block text-uppercase h-sub-font fsm-2 fw-semibold ls-1">Booking@example.com</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact -->
+                <a href="#" class="btn btn-outline-dark fw-medium text-uppercase ls-1 fsm-1 pt-2 pb-2 ps-8 pe-8 h-sub-font">
+                    <i class="hicon hicon-mmb-my-booking hicon-md"></i>
+                    <span>Book Now</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="mb-10 text-center" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+    <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4 mt-4">Explore Laseta Spa</span>
+    <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Photo Gallery</h2>
+</div>
+
+<div class="bg">
+    <div class="bgimg">
+        <img src="/img/spa-equipment-1.jpg" alt="">
+    </div>
+    <div class="bgimg">
+        <img src="/img/spa-equipment-2.jpg" alt="">
+    </div>
+    <div class="bgimg">
+        <img src="/img/spa-equipment-3.jpg" alt="">
+    </div>
+    <div class="bgimg">
+        <img src="/img/spa-equipment-4.jpg" alt="">
+    </div>
+
+    <div class="bgimg">
+        <img src="/img/spa-equipment-5.jpg" alt="">
+    </div>
+</div>
+   
+<div class="container">
+    <!-- Heading -->
+    <div class="mb-10 text-center" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+        <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4 mt-4">Laseta Spa</span>
+        <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Services offerings</h2>
+    </div>
+    <!-- /Heading -->
+    <!--  Tabs Nav -->
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase fs-6 ls-1 fw-semibold ps-8 pe-8 pt-4 pb-4 active" id="cacial-tab" data-bs-toggle="tab" data-bs-target="#cacial-tab-pane" type="button" role="tab" aria-controls="cacial-tab-pane" aria-selected="true"> Facial </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase fs-6 ls-1 fw-semibold ps-8 pe-8 pt-4 pb-4" id="foots-tab" data-bs-toggle="tab" data-bs-target="#foots-tab-pane" type="button" role="tab" aria-controls="foots-tab-pane" aria-selected="false" tabindex="-1"> Foots </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase fs-6 ls-1 fw-semibold ps-8 pe-8 pt-4 pb-4" id="body-tab" data-bs-toggle="tab" data-bs-target="#body-tab-pane" type="button" role="tab" aria-controls="body-tab-pane" aria-selected="false" tabindex="-1"> Body </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link text-uppercase fs-6 ls-1 fw-semibold ps-8 pe-8 pt-4 pb-4" id="skin-tab" data-bs-toggle="tab" data-bs-target="#skin-tab-pane" type="button" role="tab" aria-controls="skin-tab-pane" aria-selected="false" tabindex="-1"> Skin </button>
+        </li>
+    </ul>
+    <!-- Tabs Nav -->
+    <!-- Tabs Content  -->
+    <div class="tab-content bg-body p-8 p-lg-10 border-end border-start border-bottom" id="myTabContent" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+        <div class="tab-pane fade show active" id="cacial-tab-pane" role="tabpanel" aria-labelledby="cacial-tab" tabindex="0">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <h6>1. Basic Facial Care - 45'</h6>
+                    <p> A reviving facial which includes a deep cleanse, exfoliation, soothing facial massage and finally moisturizing treatment using the finest of skin care products leaving your skin refreshed and nourished. </p>
+                </li>
+                <li class="list-group-item">
+                    <h6>2. Natural Skin Dream - 60'</h6>
+                    <p> This facial has been described as an experience in its own right. Using a natural yoghurt-based face mask, this all-in-once facial cleanses, soothes, nourishes and balances the skin leaving it radiant and glowing. </p>
+                </li>
+                <li class="list-group-item">
+                    <h6>3. Silky Beauty - 60'</h6>
+                    <p> Begin with a skin cleanse and massage followed by the application of a thin, rich, velvety cream mask. A head massage stimulates the nerves and blood vessels beneath the skin whilst also calming muscle tension. The cream mask is then removed and your face is moisturized leaving the skin soft and silky smooth. </p>
+                </li>
+                <li class="list-group-item">
+                    <h6>4. Lifting Feather - 60'</h6>
+                    <p> Experience complete relaxation with a Vietnamese manual facelift technique. The clay mask is then applied to draw out excess oil from the pores while retaining moisture and hydration. This facial treatment is tailored to make your skin feeling light as a feather. </p>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="foots-tab-pane" role="tabpanel" aria-labelledby="foots-tab" tabindex="0">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <h6> 1. Essential Oils Foot Therapy - 60'</h6>
+                    <p> Experience overall healing and wellbeing as your therapist focuses on the pressure points of your feet through deep tissue massage with essential oils. The process is similar to Reflexology whilst the oil leaves your skin soft and smooth. </p>
+                </li>
+                <li class="list-group-item">
+                    <h6>2. Foot Remedy - 60'</h6>
+                    <p> A foot Massage using hot stones applied to your legs and feet. Feet can typically take a lot of heat and the combination of pressure massage with the warmth of hot stones instils a sense of relaxation, helping to restore, rebalance and rejuvenate the body. </p>
+                </li>
+                <li class="list-group-item">
+                    <h6> 3. Total Foot Treatment - 75'</h6>
+                    <p> A complete care package and ultimate treat for feet. This treatment combines a foot massage focusing on pressure points with a dry and wet scrub to remove dead skin, leaving your feet silky smooth. It is an invigorating ‘facelift’ for your feet. </p>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="body-tab-pane" role="tabpanel" aria-labelledby="body-tab" tabindex="0">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <h6>1. Relaxation Treatment - 60' 90'</h6>
+                    <p> Applying gentle soothing massage techniques with local aromatic oils, the aim is to remove overall tension, relieve swollen or painful joints and balance one’s emotions. </p>
+                </li>
+                <li class="list-group-item">
+                    <h6>2. Tension Relief Therapy - 60' 90'</h6>
+                    <p> This facial has been described as an experience in its own right. Using a natural yoghurt-based face mask, this all-in-once facial cleanses, soothes, nourishes and balances the skin leaving it radiant and glowing. </p>
+                </li>
+                <li class="list-group-item">
+                    <h6>3. Hot Stone Massage - 60' 90'</h6>
+                    <p> Using strong massage techniques combined with essential oils, this treatment targets key muscle groups to relieve aches and pains. Smooth flowing rhythmic movements also help improve circulation and stimulate an overall sense of wellbeing and balance. </p>
+                </li>
+                <li class="list-group-item">
+                    <h6> 4. Himalayan Salt Stone Massage - 60' 90'</h6>
+                    <p> This special therapy uses a blend of pure essential oil and natural salt rock crystal formed 250million years ago in ancient seas beneath the Himalayan Mountains. The healing massage technique combined with warm salt stones balances the central nervous system. It gently soothes the accumulation of stress and tension, helps remove toxins while infusing healthy minerals into the skin. </p>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="skin-tab-pane" role="tabpanel" aria-labelledby="skin-tab" tabindex="0">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <h6>1. La Spa Body Scrub - 45'</h6>
+                    <p> La Spa’s moisturizing body scrub provides a deep cleaning and exfoliating treatment. Dead skin cells are removed whilst the growth of healthy new ones are promoted. Mineral sea salt and olive oil help to remove impurities and stimulate blood circulation. </p>
+                </li>
+                <li class="list-group-item">
+                    <h6>2. Mud &amp; Milk Body Wrap - 45'</h6>
+                    <p> Harnessing the power of natural vitamins and minerals this body wrap helps improve the appearance and feel of skin. It draws toxins from the body and helps hydrate, tone and smooth the skin. </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /Tabs Content  -->
+</div>
+
+
+<div class="container col-xxl-8 px-2 py-3" id="ifzal">
+         
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Reviews on Tripadvisor</span>
+        <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis ml-4">Our Clients Say</h2>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+         
+  <div class="d-md-flex">
+    <span class="flex-md-shrink-0 me-5">
+      <img src="" srcset="#"
+        class="img-fluid rounded rounded-circle shadow-sm mb-6" width="80" alt="">
+    </span>
+    <div class="flex-md-grow-4">
+      <blockquote class="d-block blockquote fst-italic mb-2">
+        <p>Et vix affert animal disputationi, ut ignota sapientem consetetur in etiam docendi est. Graeco
+          aliquando ex quo, probo antiopam ut mei, ex ridens constituto voluptatum site intellegat. </p>
+      </blockquote>
+      <span class="d-block mb-5 me-0"><span class="star-rate-view star-rate-size-sm"><span
+            class="star-value rate-45"></span></span></span>
+      <span class="d-block blockquote-footer text-body-secondary"> Ariol Deep <cite
+          title="Source Title">(india)</cite>
+      </span>
+    </div>
+  </div>
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" class="img-fluid" src="/img/cont-1.jpg" alt="" width="500">
+      </div>
+    </div>
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Contact INFO</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Quick LINKS</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Rooms & Suties</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Restaurant & Bar</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Spa & Wellness</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Meeting & Events</a></li>
+          </ul>
+        </div>
+  
+       
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our LASETA HOTEL </h5>
+            <p>Sed diam constituam ei, qui erat probo dissentiet ex. Id vim libris volutpat, pri cu errem timeam cotidieque, purto summo has te. An quis eligendi atomorum duo.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2023 Laseta Gallery Hotel.</p>
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+</html>

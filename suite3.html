@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #000000cc;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/img/logo-light.png" alt="Bootstrap" width="100" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="#" href="/index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " aria-current="page" href="/room&suite.html" role="button"
+                            data-bs-toggle="dropdown" aria-current="page">
+                            Rooms & Suties
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/suite.html">Room 1</a></li>
+                            <li><a class="dropdown-item" href="/suite.html">Room 2</a></li>
+                            <li><a class="dropdown-item" href="#">Room 3</a></li>
+                            <li><a class="dropdown-item" href="#">Single room 1</a></li>
+                            <li><a class="dropdown-item" href="#">Single room 2</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="/restaurnt.html">Restaurant</a>
+                    </li>
+          
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Spa&w.html">Spa & Wellness</a>
+                    </li>
+          
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="/special.html">Special offers</a>
+                    </li>
+          
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">About</a></li>
+                            <li><a class="dropdown-item" href="#">Facilities</a></li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <li><a class="dropdown-item" href="#">Coming soon</a></li>
+                            <li><a class="dropdown-item" href="#">Blank page</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <img src="/img/room-2.jpg" class="w-100" alt="">
+
+    <div class="container">
+        <div class="under">
+          <p>THE LUXURY HOTEL</p>
+          <h2 class="opacity-100">SPECTACULAR CITY VIEWS</h2>
+          <p><a class="btn btn-lg btn-outline-light fw-medium" href="#">EXPLORE NOW</a></p>
+        </div>
+      </div>
+
+      <div class="row featurette m-4 mx-4">
+        <div class="col-md-7" >
+          <h2 class="featurette-heading fw-normal lh-1">Standard Room <span class="text-body-secondary">$199</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga voluptatem architecto cupiditate quis quae aliquam?</p>
+        </div>
+        <div class="col-md-5">
+          <img src="/img/room-3.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="row featurette m-4 mx-4">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Superior Room <span class="text-body-secondary">$150</span></h2>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ipsum itaque maxime, officiis sunt repellat sint.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="/img/room-4.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="row featurette m-4 mx-4">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Deluxe Room <span class="text-body-secondary">$180</span></h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam deserunt tempora recusandae voluptatum temporibus a similique?</p>
+        </div>
+        <div class="col-md-5">
+         <img  src="/img/room-5.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="mb-10 text-center" data-cue="fadeIn" data-show="true"
+      style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+      <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Luxury &amp; Modern</span>
+      <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Laseta Facilities</h2>
+    </div>
+  
+    
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3" id="text1">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+          <img src="/img/icons.png" class="d-block w-100" alt="...">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">HIGH SPEED WIFI</h3>
+        <p>Vix placerat no eam cu bonorum sententiae atomorum duo noster ad vel.</p>
+        <a href="#" class="icon-link">
+  
+          <svg class="bi">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+          <img src="/img/swimming pool.png" class="d-block w-100" alt="...">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">SWIMMING POOL</h3>
+        <p>Has et magna dolore dicit essent inermis nec prima similique pri at.</p>
+        <a href="#" class="icon-link">
+  
+          <svg class="bi">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+          <img src="/img/spa center.png" class="d-block w-100" alt="...">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">SPA CENTER</h3>
+        <p>Mel graece consequ ex dicunt appareat duo vim errem augue placerat.</p>
+        <a href="#" class="icon-link">
+  
+          <svg class="bi">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"  id="text1">
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+          <img src="/img/parking space.png" class="d-block w-100" alt="...">
+        </div>
+        <h3 class="fs-2 text-body-emphasis"> PARKING SPACE</h3>
+        <p>Vix placerat no eam cu bonorum sententiae atomorum duo noster ad vel.</p>
+        <a href="#" class="icon-link">
+  
+          <svg class="bi">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+          <img src="/img/front desk.png" class="d-block w-100" alt="...">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">FRONT DESK 24H</h3>
+        <p>Scripta apeirian in his accusa complect adipisci ocurreret an per.</p>
+        <a href="#" class="icon-link">
+  
+          <svg class="bi">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-light bg-gradient fs-2 mb-3">
+          <img src="/img/fitness.png" class="d-block w-100" alt="...">
+        </div>
+        <h3 class="fs-2 text-body-emphasis"> FITNESS CENTER</h3>
+        <p>Ne ius assentior te soluta mel placerat appareat duo splendide quo no.</p>
+        <a href="#" class="icon-link">
+          <svg class="bi">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Contact INFO</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Quick LINKS</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Rooms & Suties</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Restaurant & Bar</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Spa & Wellness</a>
+                </li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Meeting & Events</a>
+                </li>
+              </ul>
+            </div>
+
+
+
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our LASETA HOTEL </h5>
+                <p>Sed diam constituam ei, qui erat probo dissentiet ex. Id vim libris volutpat, pri cu errem timeam
+                  cotidieque, purto summo has te. An quis eligendi atomorum duo.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2023 Laseta Gallery Hotel.</p>
+            <ul class="list-unstyled d-flex">
+              <p>CONNECT SOCIAL</p>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-twitter"></i><svg class="bi" width="0" height="0">
+                <use xlink:href="#twitter"></use>
+              </svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram"></i><svg class="bi" width="0" height="0">
+                <use xlink:href="#instagram"></use>
+              </svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook"></i><svg class="bi" width="0" height="0">
+                <use xlink:href="#facebook"></use>
+              </svg></a></li>
+            </ul>
+            <p class="float-end"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></p>
+          </div>
+        </footer>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
+  

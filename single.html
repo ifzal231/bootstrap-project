@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #000000cc;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/img/logo-light.png" alt="Bootstrap" width="100" height="100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="room&suite.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="page">
+              Rooms & Suties
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/suite.html">Room 1</a></li>
+              <li><a class="dropdown-item" href="/suite.html">Room 2</a></li>
+              <li><a class="dropdown-item" href="#">Room 3</a></li>
+              <li><a class="dropdown-item" href="#">Single room 1</a></li>
+              <li><a class="dropdown-item" href="#">Single room 2</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/restaurnt.html">Restaurant</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/Spa&w.html">Spa & Wellness</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/special.html">Special offers</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/about.html">About</a></li>
+              <li><a class="dropdown-item" href="#">Facilities</a></li>
+              <li><a class="dropdown-item" href="#">Contact</a></li>
+              <li><a class="dropdown-item" href="#">Coming soon</a></li>
+              <li><a class="dropdown-item" href="#">Blank page</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
+        aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="/img/single-room-1.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption">
+            <p>THE SUITE COLLECTION</p>
+            <h2 class="opacity-100">PRESIDENT SUITE</h2>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="/img/single-room-2.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption">
+            <p>THE SUITE COLLECTION</p>
+            <h2>PRESIDENT SUITE</h2>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/single-room-3.jpg" class="d-block w-100" alt="...">
+        <div class="container">
+          <div class="carousel-caption">
+            <p>THE SUITE COLLECTION</p>
+            <h2>PRESIDENT SUITE</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section id="features" class="pt-12 pb-10">
+    <div class="container">
+        <h2 class="d-none">Features</h2>
+        <ul class="list-unstyled row g-3 mb-0 text-center">
+            <li class="col-6 col-xl-2 col-lg-3 col-md-4">
+                <div class="mb-6" >
+                    <i class="fa-solid fa-house-flood-water"></i>
+                    <span class="text-uppercase fsm-3 ls-1 font-h fw-semibold d-block">613 FT² / 57 M²</span>
+                </div>
+            </li>
+            <li class="col-6 col-xl-2 col-lg-3 col-md-4">
+                <div class="mb-6">
+                    <i class="fa-solid fa-bed"></i>
+                    <span class="text-uppercase fsm-3 ls-1 font-h fw-semibold d-block">1 King bed</span>
+                </div>
+            </li>
+            <li class="col-6 col-xl-2 col-lg-3 col-md-4">
+                <div class="mb-6">
+                    <i class="fa-solid fa-person"></i>
+                    <span class="text-uppercase fsm-3 ls-1 font-h fw-semibold d-block">Upto 2 guests</span>
+                </div>
+            </li>
+            <li class="col-6 col-xl-2 col-lg-3 col-md-4">
+                <div class="mb-6">
+                    <i class="fa-solid fa-bath"></i>
+                    <div class="hs">
+                    <span class="text-uppercase fsm-3 ls-1 font-h fw-semibold ">Rain shower</span>
+                </div>
+                </div>
+            </li>
+            <li class="col-6 col-xl-2 col-lg-3 col-md-4">
+                <div class="mb-6">
+                    <i class="fa-solid fa-street-view"></i>
+                    <span class="text-uppercase fsm-3 ls-1 font-h fw-semibold d-block">City view</span>
+                </div>
+            </li>
+            <li class="col-6 col-xl-2 col-lg-3 col-md-4">
+                <div class="mb-6">
+                    <i class="fa-solid fa-ban-smoking"></i>
+                    <span class="text-uppercase fsm-3 ls-1 font-h fw-semibold d-block">No smoking</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<h2 class="text-uppercase h-special-font mb-6 text-body-emphasis h1 text-center">
+  <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 mb-4"> Starting From:</span>
+  <span>$195</span><small class="h-sub-font text-capitalize fs-5 fw-medium">/Night</small>
+</h2>
+
+<div class="row justify-content-center">
+  <div class="col-12 col-xl-3 col-lg-4 col-md-5">
+      <div class="text-center mb-6">
+          <i class="fa-solid fa-phone"></i>
+          <span class="d-block text-uppercase h-sub-font fsm-2 fw-semibold ls-1">+33 (0) 1 89 78 67 56</span>
+      </div>
+  </div>
+  <div class="col-12 col-xl-3 col-lg-4 col-md-5">
+      <div class="text-center mb-6">
+          <i class="fa-solid fa-envelope"></i>
+          <span class="d-block text-uppercase h-sub-font fsm-2 fw-semibold ls-1">Booking@example.com</span>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="row g-0 g-lg-10" data-cues="fadeIn" data-disabled="true">
+        <div class="col-12 col-xl-6 col-lg-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <!-- Description -->
+            <div class="mb-10">
+                <div class="mb-6">
+                    <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Luxury &amp; Exquisite</span>
+                    <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">About Room</h2>
+                </div>
+                <p class="mb-6"> Lorem ipsum dolor sit amet, nisl scaevola has ne, veniam detracto et mel, ei eum dolor partiendo repudiare. Docendi erroribus at has, nonumy equidem mea eu, sed alienum perfecto eleifend ne. Suas insolens et nam, sit congue fastidii ea, his facer meliore te. Duo laoreet patrioque similique ad. Nam ei impetus definiebas, has ea essent expetenda. Libris accusam principes ut vix, vel ad partem delectus, ad eos posse mundi. Summo congue adipisci pri eu, nemore verterem voluptatibus ne mei. Dolorum detraxit ad eam, in usu quod omnesque consequuntur, dicit congue meliore vis ei. </p>
+                <a href="#roomPhotos" class="fw-semibold d-inline-block fsm-1 text-uppercase ls-2 h-sub-font">
+                    <i class="hicon hicon-flights-one-ways"></i>
+                </a>
+            </div><!-- /Description -->
+        </div>
+        <div class="col-12 col-xl-6 col-lg-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 400ms; animation-direction: normal; animation-fill-mode: both;">
+            <!-- Image -->
+            <div class="position-relative mb-16">
+                <div class="position-absolute top-0 end-0 start-0 bottom-0 bg-body-tertiary h-100 w-100 mt-16 ms-16"></div>
+                <figure class="figure mb-0 w-100 position-relative z-2">
+                    <img src="/img/single-room-4.jpg" srcset="./assets/img/rooms/r2@2x.jpg 2x" class="figure-img img-fluid mb-0 w-100" alt="...">
+                </figure>
+                <div class="position-absolute top-50 start-50 translate-middle z-3">
+                    <a class="btn-video-play media-glightbox" href="./assets/media/v1.mp4"><span></span></a>
+                </div>
+            </div>
+            <!-- /Image -->
+        </div>
+    </div>
+</div>
+
+
+<div class="mb-10 text-center" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+  <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Explore The Room</span>
+  <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Room Photos</h2>
+</div>
+
+<div class="food">
+  <div class="foodimg">
+    <img src="img/view-1.jpg" alt="">
+    
+  </div>
+  <div class="foodimg">
+    <img src="img/view-2.jpg" alt="">
+    
+  </div>
+  <div class="foodimg">
+    <img src="img/view-3.jpg" alt="">
+    
+  </div>
+  <div class="foodimg">
+    <img src="img/view-4.jpg" alt="">
+    
+  </div>
+  <div class="foodimg">
+    <img src="img/view-5.jpg" alt="">
+    
+  </div>
+</div>
+
+
+
+
+
+<div class="container mt-4">
+    <!-- Heading -->
+    <div class="mb-10 text-center" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+        <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Flexible Policies</span>
+        <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Room Policies</h2>
+    </div>
+    <!-- /Heading -->
+    <!-- Room Policies -->
+    <div class="mb-10" data-cues="fadeIn" data-disabled="true">
+        <div class="mb-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <h6 class="text-uppercase h-sub-font ls-1 fs-6">Check-in/out Policy:</h6>
+            <ul>
+                <li>Check in: from 14:00;</li>
+                <li>Check out: no later than 12:00;</li>
+                <li>Early check-in or late check out will be upon availability.</li>
+            </ul>
+        </div>
+        <div class="mb-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <h6 class="text-uppercase h-sub-font ls-1 fs-6">Cancellation/Amendment Policy:</h6>
+            <ul>
+                <li>If cancellation/amendment is made before 7 days prior to your arrival date, no fee will be charged.</li>
+                <li>If cancellation/amendment is made in 7 days of your arrival date or no show, 100% room rate of first night and tax will be charged</li>
+            </ul>
+        </div>
+        <div class="mb-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <h6 class="text-uppercase h-sub-font ls-1 fs-6">Payment method:</h6>
+            <ul>
+                <li>By cash</li>
+                <li>By Visa Card, Master Card, American Express plus 3% bank fee is applied.</li>
+            </ul>
+        </div>
+        <div class="mb-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+            <h6 class="text-uppercase h-sub-font ls-1 fs-6">Children and Extra Adult Policy:</h6>
+            <ul>
+                <li>Child under 3 years old: Free of charge and share bed with parents.</li>
+                <li>Child from 5 years old and over: surcharge US$37/person/night for additional child or an extra bed.</li>
+                <li>Adult: surcharge US$37/person/night for an additional person or an extra bed.&nbsp;</li>
+            </ul>
+        </div>
+    </div>
+    <!-- /Room Policies -->
+</div>
+
+
+<div class="container col-8  w-100 px-2 py-3" id="ifzal">
+
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Reviews on Tripadvisor</span>
+        <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis ml-4">Our Clients Say</h2>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+
+          <div class="d-md-flex">
+            <span class="flex-md-shrink-0 me-5">
+              <img src="" srcset="#" class="img-fluid rounded rounded-circle shadow-sm mb-6" width="80" alt="">
+            </span>
+            <div class="flex-md-grow-4">
+              <blockquote class="d-block blockquote fst-italic mb-2">
+                <p>Et vix affert animal disputationi, ut ignota sapientem consetetur in etiam docendi est. Graeco
+                  aliquando ex quo, probo antiopam ut mei, ex ridens constituto voluptatum site intellegat. </p>
+              </blockquote>
+              <span class="d-block mb-5 me-0"><span class="star-rate-view star-rate-size-sm"><span
+                    class="star-value rate-45"></span></span></span>
+              <span class="d-block blockquote-footer text-body-secondary"> Ariol Deep <cite
+                  title="Source Title">(india)</cite>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 offset-lg-  overflow-hidden " >
+        <img class="img-fluid" src="img/cont-1.jpg" alt="" width="550">
+      </div>
+    </div>
+
+    <div class="mb-10 text-center">
+      <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">The Luxury Rooms</span>
+      <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Maybe you are interested</h2>
+  </div>
+
+  <div class="hotel">
+      <div class="hotelimg">
+        <img src="/img/single hotel room -1.jpg" alt="">
+        
+      </div>
+      <div class="foodimg">
+        <img src="img/single hotel room -2.jpg" alt="">
+        
+      </div>
+      <div class="foodimg">
+        <img src="img/single hotel room -3.jpg" alt="">
+        
+      </div>
+      <div class="foodimg">
+        <img src="img/single hotel room -4.jpg" alt="">
+        
+      </div>
+      <div class="foodimg">
+        <img src="img/single hotel room -5.jpg" alt="">
+        
+      </div>
+  </div>
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Contact INFO</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Quick LINKS</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Rooms & Suties</a>
+            </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Restaurant & Bar</a>
+            </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Spa & Wellness</a>
+            </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Meeting & Events</a>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our LASETA HOTEL </h5>
+            <p>Sed diam constituam ei, qui erat probo dissentiet ex. Id vim libris volutpat, pri cu errem timeam
+              cotidieque, purto summo has te. An quis eligendi atomorum duo.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2023 Laseta Gallery Hotel.</p>
+        <ul class="list-unstyled d-flex">
+          <p>CONNECT SOCIAL</p>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-twitter"></i><svg class="bi" width="0" height="0">
+            <use xlink:href="#twitter"></use>
+          </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram"></i><svg class="bi" width="0" height="0">
+            <use xlink:href="#instagram"></use>
+          </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook"></i><svg class="bi" width="0" height="0">
+            <use xlink:href="#facebook"></use>
+          </svg></a></li>
+        </ul>
+        <p class="float-end"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></p>
+      </div>
+    </footer>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+  crossorigin="anonymous"></script>
+
+</body>
+
+</html>
