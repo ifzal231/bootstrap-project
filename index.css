@@ -377,6 +377,10 @@ h2 {
     .food{
         height: 13vh;
     }
+
+    .bed{
+        height: 12vh;
+    }
 }
 
 @media(max-width:450px) {
