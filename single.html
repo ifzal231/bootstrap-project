@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 
 <head>
   <meta charset="utf-8">
@@ -12,10 +12,12 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #000000cc;">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top w-100" style="background-color: #000000cc;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="/img/logo-light.png" alt="Bootstrap" width="100" height="100">
+        <div class="logo" style="height: 60px;">
+          <img src="/img/logo-light.png">
+        </div>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +26,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link " aria-current="page" href="/index.html">Home</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -34,10 +36,9 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/suite.html">Room 1</a></li>
-              <li><a class="dropdown-item" href="/suite.html">Room 2</a></li>
-              <li><a class="dropdown-item" href="#">Room 3</a></li>
-              <li><a class="dropdown-item" href="#">Single room 1</a></li>
-              <li><a class="dropdown-item" href="#">Single room 2</a></li>
+              <li><a class="dropdown-item" href="/suite2.html">Room 2</a></li>
+              <li><a class="dropdown-item" href="/suite3.html">Room 3</a></li>
+              <li><a class="dropdown-item" href="/single.html">Single room 1</a></li>
             </ul>
           </li>
 
@@ -46,8 +47,9 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/Spa&w.html">Spa & Wellness</a>
+            <a class="nav-link" href="/Spa_w.html">Spa & Wellness</a>
           </li>
+
 
           <li class="nav-item">
             <a class="nav-link " aria-current="page" href="/special.html">Special offers</a>
@@ -62,10 +64,9 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/about.html">About</a></li>
-              <li><a class="dropdown-item" href="#">Facilities</a></li>
-              <li><a class="dropdown-item" href="#">Contact</a></li>
-              <li><a class="dropdown-item" href="#">Coming soon</a></li>
-              <li><a class="dropdown-item" href="#">Blank page</a></li>
+              <li><a class="dropdown-item" href="/contact.html">Contact</a></li>
+              <li><a class="dropdown-item" href="/404.html">404 page</a></li>
+              <li><a class="dropdown-item" href="/blank.html">Blank page</a></li>
             </ul>
           </li>
 
@@ -73,7 +74,7 @@
       </div>
     </div>
   </nav>
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel slide mb-6 w-100" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active"
@@ -119,7 +120,7 @@
     </button>
   </div>
 
-  <section id="features" class="pt-12 pb-10">
+  <section id="features" class="pt-12 pb-10 w-100">
     <div class="container">
         <h2 class="d-none">Features</h2>
         <ul class="list-unstyled row g-3 mb-0 text-center">
@@ -167,7 +168,7 @@
 
 
 <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis h1 text-center">
-  <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 mb-4"> Starting From:</span>
+  <span class="text-uppercase h-sub-font fsm-1 fw-bold ls-2 mb-4" style="font-size: 13px;"> Starting From:</span>
   <span>$195</span><small class="h-sub-font text-capitalize fs-5 fw-medium">/Night</small>
 </h2>
 
@@ -175,24 +176,24 @@
   <div class="col-12 col-xl-3 col-lg-4 col-md-5">
       <div class="text-center mb-6">
           <i class="fa-solid fa-phone"></i>
-          <span class="d-block text-uppercase h-sub-font fsm-2 fw-semibold ls-1">+33 (0) 1 89 78 67 56</span>
+          <span class="d-block text-uppercase h-sub-font fsm-2 fw-bold ls-1">+33 (0) 1 89 78 67 56</span>
       </div>
   </div>
   <div class="col-12 col-xl-3 col-lg-4 col-md-5">
       <div class="text-center mb-6">
           <i class="fa-solid fa-envelope"></i>
-          <span class="d-block text-uppercase h-sub-font fsm-2 fw-semibold ls-1">Booking@example.com</span>
+          <span class="d-block text-uppercase h-sub-font fsm-2 fw-bold ls-1">Booking@example.com</span>
       </div>
   </div>
 </div>
 
-<div class="container">
+<div class="container w-100">
     <div class="row g-0 g-lg-10" data-cues="fadeIn" data-disabled="true">
         <div class="col-12 col-xl-6 col-lg-6" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
             <!-- Description -->
             <div class="mb-10">
                 <div class="mb-6">
-                    <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Luxury &amp; Exquisite</span>
+                    <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4 mt-4">Luxury &amp; Exquisite</span>
                     <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">About Room</h2>
                 </div>
                 <p class="mb-6"> Lorem ipsum dolor sit amet, nisl scaevola has ne, veniam detracto et mel, ei eum dolor partiendo repudiare. Docendi erroribus at has, nonumy equidem mea eu, sed alienum perfecto eleifend ne. Suas insolens et nam, sit congue fastidii ea, his facer meliore te. Duo laoreet patrioque similique ad. Nam ei impetus definiebas, has ea essent expetenda. Libris accusam principes ut vix, vel ad partem delectus, ad eos posse mundi. Summo congue adipisci pri eu, nemore verterem voluptatibus ne mei. Dolorum detraxit ad eam, in usu quod omnesque consequuntur, dicit congue meliore vis ei. </p>
@@ -206,10 +207,10 @@
             <div class="position-relative mb-16">
                 <div class="position-absolute top-0 end-0 start-0 bottom-0 bg-body-tertiary h-100 w-100 mt-16 ms-16"></div>
                 <figure class="figure mb-0 w-100 position-relative z-2">
-                    <img src="/img/single-room-4.jpg" srcset="./assets/img/rooms/r2@2x.jpg 2x" class="figure-img img-fluid mb-0 w-100" alt="...">
+                    <img src="/img/single-room-4.jpg"  class="figure-img img-fluid mb-0 w-100" alt="...">
                 </figure>
                 <div class="position-absolute top-50 start-50 translate-middle z-3">
-                    <a class="btn-video-play media-glightbox" href="./assets/media/v1.mp4"><span></span></a>
+                    <a class="btn-video-play media-glightbox" href="#"><span></span></a>
                 </div>
             </div>
             <!-- /Image -->
@@ -218,8 +219,8 @@
 </div>
 
 
-<div class="mb-10 text-center" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
-  <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Explore The Room</span>
+<div class="mb-10 text-center w-100" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+  <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4 mt-4">Explore The Room</span>
   <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Room Photos</h2>
 </div>
 
@@ -250,7 +251,7 @@
 
 
 
-<div class="container mt-4">
+<div class="container mt-4 w-100">
     <!-- Heading -->
     <div class="mb-10 text-center" data-cue="fadeIn" data-show="true" style="animation-name: fadeIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
         <span class="text-uppercase h-sub-font fsm-1 fw-medium ls-2 d-block mb-4">Flexible Policies</span>
@@ -330,7 +331,7 @@
       <h2 class="text-uppercase h-special-font mb-6 text-body-emphasis">Maybe you are interested</h2>
   </div>
 
-  <div class="hotel">
+  <div class="hotel" style="width: 100%; height: 10vh;">
       <div class="hotelimg">
         <img src="/img/single hotel room -1.jpg" alt="">
         
@@ -353,7 +354,7 @@
       </div>
   </div>
 
-  <div class="container">
+  <div class="container w-100">
     <footer class="py-5">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">

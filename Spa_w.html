@@ -7,13 +7,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #000000cc;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="/img/logo-light.png" alt="Bootstrap" width="100" height="100">
+        <div class="logo" style="height: 60px;">
+          <img src="/img/logo-light.png">
+        </div>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link "  href="/index.html">Home</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -31,10 +34,9 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/suite.html">Room 1</a></li>
-              <li><a class="dropdown-item" href="#">Room 2</a></li>
-              <li><a class="dropdown-item" href="#">Room 3</a></li>
-              <li><a class="dropdown-item" href="#">Single room 1</a></li>
-              <li><a class="dropdown-item" href="#">Single room 2</a></li>
+              <li><a class="dropdown-item" href="/suite2.html">Room 2</a></li>
+              <li><a class="dropdown-item" href="/suite3.html">Room 3</a></li>
+              <li><a class="dropdown-item" href="/single.html">Single room 1</a></li>
             </ul>
           </li>
 
@@ -43,7 +45,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="/Spa&w.html">Spa & Wellness</a>
+            <a class="nav-link active" aria-current="page" href="/Spa_w.html">Spa & Wellness</a>
           </li>
 
           <li class="nav-item">
@@ -58,11 +60,10 @@
               Pages
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">About</a></li>
-              <li><a class="dropdown-item" href="#">Facilities</a></li>
-              <li><a class="dropdown-item" href="#">Contact</a></li>
-              <li><a class="dropdown-item" href="#">Coming soon</a></li>
-              <li><a class="dropdown-item" href="#">Blank page</a></li>
+              <li><a class="dropdown-item" href="/about.html">About</a></li>
+              <li><a class="dropdown-item" href="/contact.html">Contact</a></li>
+              <li><a class="dropdown-item" href="/404.html">404 page</a></li>
+              <li><a class="dropdown-item" href="/blank.html">Blank page</a></li>
             </ul>
           </li>
 
@@ -158,7 +159,7 @@
                 <!-- Price -->
                 <!-- Contact -->
                 <div class="row justify-content-center mb-8">
-                    <div class="col-12 col-xl-3 col-lg-4 col-md-5">
+                    <div class="col-12 col-xl-3 col-lg-4 col-md-5" style="line-height: 3;">
                         <div class="text-center mb-6">
                             <i class="hicon hicon-200 hicon-telephone text-light mb-4"></i>
                             <span class="d-block text-uppercase h-sub-font fsm-2 fw-semibold ls-1">+33 (0) 1 89 78 67 56</span>
@@ -172,7 +173,7 @@
                     </div>
                 </div>
                 <!-- Contact -->
-                <a href="#" class="btn btn-outline-dark fw-medium text-uppercase ls-1 fsm-1 pt-2 pb-2 ps-8 pe-8 h-sub-font">
+                <a href="#" class="btn btn-outline-dark fw-medium text-uppercase ls-1 fsm-1 pt-2 pb-2 ps-8 pe-8 h-sub-font my-3">
                     <i class="hicon hicon-mmb-my-booking hicon-md"></i>
                     <span>Book Now</span>
                 </a>
@@ -331,7 +332,7 @@
         </div>
       </div>
       <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" class="img-fluid" src="/img/cont-1.jpg" alt="" width="500">
+          <img class="rounded-lg-3 w-100" class="img-fluid" src="/img/cont-1.jpg" alt="">
       </div>
     </div>
 
@@ -372,21 +373,28 @@
           </form>
         </div>
       </div>
-  
+
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
         <p>© 2023 Laseta Gallery Hotel.</p>
-        <p class="float-end"><a href="#">Back to top</a></p>
         <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          <p>CONNECT SOCIAL</p>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-twitter"></i><svg class="bi" width="0" height="0">
+            <use xlink:href="#twitter"></use>
+          </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram"></i><svg class="bi" width="0" height="0">
+            <use xlink:href="#instagram"></use>
+          </svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook"></i><svg class="bi" width="0" height="0">
+            <use xlink:href="#facebook"></use>
+          </svg></a></li>
         </ul>
+        <p class="float-end"><a href="#"><i class="fa-solid fa-arrow-up"></i></a></p>
       </div>
     </footer>
   </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

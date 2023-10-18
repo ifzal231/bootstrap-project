@@ -1,69 +1,65 @@
-/* #carouselExampleCaptions .container{ 
-    transform: translateY(-600px);
+
+
+
+body {
+    overflow-x: hidden !important;
+    transition: all 0.5s ease !important;
+}
+
+img {
     width: 100%;
-    text-align: center;
-    line-height: 7;
-    color: white;
-    
-    
 }
 
-#carouselExampleCaptions .carousel-inner .ac .container #a a {
-    margin-top: 100%;
-} */
-
-/* .Thumbnail{
-    margin-top: -100px;
-} */
-
-/* .slide-head{
-    transform: translateY(-520px);
-    position: absolute;
-    bottom: 200px;
-    line-height: 5;
-} */
-body{
-    overflow-x: hidden;
-}
 .row-cols-lg-3>* {
     flex: 0 0 auto;
     align-items: center;
-    /* width: 31.333333%; */
     text-align: center;
     justify-content: center;
 }
 
-#text1{
-width: 100%;
-}
-#text2{
+#text1 {
     width: 100%;
 }
+
+#text2 {
+    width: 100%;
+}
+
 #ifzal img:hover {
+    transition: all 0.5s ease !important;
     transform: scale(1.05);
     box-shadow: #130d0d;
 
+}
+
+.shadow-sm {
+    overflow: hidden;
+    transition: all 0.5s ease !important;
 }
 
 .col img:hover {
+    transition: all 0.5s ease !important;
     transform: scale(1.05);
     box-shadow: #130d0d;
 
 }
+
 .col h3:hover {
     transform: scale(1.05);
     box-shadow: #130d0d;
 
 }
+
 .py-5 {
-    padding-top: 3rem!important;
-    padding-bottom: 3rem!important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
     justify-content: center;
 }
 
-.me-5{
+.me-5 {
     margin-right: 0 !important;
 }
+
 .under {
     position: absolute;
     right: 15%;
@@ -74,15 +70,17 @@ width: 100%;
     color: #fff;
     text-align: center;
 }
+
 .my-4 {
-    margin-top: 1.5rem!important;
+    margin-top: 1.5rem !important;
     margin-left: 1rem;
-    margin-bottom: 1.5rem!important;
+    margin-bottom: 1.5rem !important;
 }
 
-#ifzalrs{
+#ifzalrs {
     width: 100%;
 }
+
 .form-control {
     display: block;
     width: 80%;
@@ -98,14 +96,15 @@ width: 100%;
     background-clip: padding-box;
     border: var(--bs-border-width) solid var(--bs-border-color);
     border-radius: var(--bs-border-radius);
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 /* .offset-md-1 {
     margin-left: 23.333333%;
 } */
 
-.g-3, .gy-3 {
+.g-3,
+.gy-3 {
     --bs-gutter-y: 1rem;
 }
 
@@ -113,10 +112,10 @@ width: 100%;
 
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.food{
+.food {
     display: flex;
     width: 90%;
     margin: auto;
@@ -124,20 +123,21 @@ width: 100%;
     gap: 2%;
 }
 
-.food img:hover{
+.food img:hover {
     transform: scale(115%);
-    transition:all 0.8s ;
+    transition: all 0.5s ease !important;
 }
 
-.foodimg{
+.foodimg {
     width: 100%;
     overflow: hidden;
 }
-.foodimg img{
+
+.foodimg img {
     width: 100%;
 }
 
-.bg{
+.bg {
     display: flex;
     width: 90%;
     margin: auto;
@@ -145,17 +145,17 @@ width: 100%;
     gap: 2%;
 }
 
-.bg img:hover{
+.bg img:hover {
     transform: scale(115%);
     transition: all 0.8s;
 }
 
-.bgimg{
+.bgimg {
     width: 100%;
     overflow: hidden;
 }
 
-.pool{
+.pool {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     width: 70%;
@@ -164,15 +164,18 @@ width: 100%;
     gap: 2%;
     overflow: hidden;
 }
-.swimming{
+
+.swimming {
     overflow: hidden;
-    height: 36vh;
+    height: auto;
 }
-.swimming img:hover{
+
+.swimming img:hover {
     transform: scale(115%);
-    transition:all 0.8s;
+    transition: all 0.5s ease !important;
 }
-.swimming img{
+
+.swimming img {
     width: 100%;
     overflow: hidden;
 }
@@ -180,7 +183,7 @@ width: 100%;
 
 
 
-.bed{
+.bed {
     display: flex;
     width: 90%;
     margin: auto;
@@ -189,58 +192,76 @@ width: 100%;
 }
 
 
-.roomimg{
+.roomimg {
     width: 100%;
     height: 210px;
     overflow: hidden;
 }
 
-.roomimg img{
-    transition:all 0.8s ;
+.roomimg img {
+    transition: all 0.8s;
     width: 100%;
 }
 
-.roomimg img:hover{
+.roomimg img:hover {
+    transition: all 0.5s ease !important;
     transform: scale(1.15);
 }
 
-#iffu{
+#iffu {
     padding-top: 0px;
 }
 
-.col-md-5{
+.col-md-5 {
     overflow: hidden;
-    width: 30%;
+    width: 100% !important;
 }
 
+.col-md-5 {
+    overflow: hidden;
+    width: 100% !important;
+}
 
- .col-md-5 img {
-   width: 100%;
+.col-md-5 img {
+    width: 100%;
     transition: all 1s;
-    
+
+}
+
+.h2,
+h2 {
+    font-size: calc(.325rem + .9vw) !important;
+}
+
+.btn {
+    font-size: 10px;
 }
 
 
-.col-md-5 img:hover{
-    transform: scale(1.15);
-    
+
+.ser {
+    width: 100%;
 }
 
 .pb-10 {
-    padding-bottom: 2.5rem!important;
+    padding-bottom: 2.5rem !important;
 }
+
 .pt-12 {
-    padding-top: 3.5rem!important;
+    padding-top: 3.5rem !important;
 }
-*, ::after, ::before {
+
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
-.hs{
+.hs {
     padding-bottom: 30px;
 }
 
-.hotel{
+.hotel {
     display: flex;
     width: 90%;
     margin: auto;
@@ -248,60 +269,91 @@ width: 100%;
     gap: 2%;
 }
 
-.hotel img:hover{
+.hotel img:hover {
     transform: scale(115%);
-    transition:all 0.8s ;
+    transition: all 0.8s;
 }
 
-.hotelimg{
+.hotelimg {
     width: 100%;
     overflow: hidden;
 }
-.hotelimg img{
+
+.hotelimg img {
     width: 100%;
 }
 
+.monster {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 2%;
 
-.team{
+}
+
+.monster .monsterimg {
+    overflow: hidden;
+    
+}
+
+.monsterimg img {
+    width: 100%;
+}
+
+.monsterimg img:hover {
+    transition: all 0.5s ease !important;
+    transform: scale(105%);
+}
+
+.team {
     display: flex;
     width: 90%;
     margin: auto;
     gap: 2%;
 }
 
-.team img:hover{
+.team img:hover {
     transform: scale(103%);
     transition: all 0.5s;
 }
 
-.teamimg{
+.teamimg {
     width: 100%;
     overflow: hidden;
 }
-.teamimg img{
+
+.teamimg img {
     width: 100%;
 }
 
-#adnan{
+#adnan {
     position: absolute !important;
     top: 0 !important;
 }
 
- /* .class {
-    top: 17px;
-    position: relative;
-    left: 180px;
-} */
+
 
 
 .page {
     margin-left: 22%;
 }
-/* RESPONSIVE */
 
-@media(max-width:900px){
+.under {
+    position: absolute;
+    right: 15%;
+    bottom: 25.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    transform: translateY(180px);
+}
+
+
+@media(max-width:900px) {
     .p-4 {
-        padding: 0.5rem!important;
+        padding: 0.5rem !important;
     }
 
     .under {
@@ -316,12 +368,104 @@ width: 100%;
     }
 }
 
-@media(max-width:450px){
+@media(max-width:450px) {
+    .under {
+        bottom: 33.25rem;
+        padding-bottom: 4rem !important;
+    }
+
+    .bg {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        height: 12vh;
+        gap: 2%;
+    }
     .under{
-        bottom: 33.25rem; 
+        transform: translateY(235px);
     }
 }
 
+@media(max-width:350px) {
+    .food {
+        width: 90%;
+        height: 8vh;
+    }
+
+    .bed{
+        height: 10vh;
+    }
+    .h5, h5 {
+        font-size: 1rem;
+    }
+}
+@media(max-width:300px) {
+    .food {
+        height: 12vh;
+    }
+
+    img,
+    svg {
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .bg {
+        height: 13vh;
+    }
+
+    .fw-semibold {
+        padding-bottom: 10px;
+        font-weight: 600 !important;
+        font-size: 11px;
+    }
+
+    .bed {
+        height: 10vh;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        margin-left: 10px;
+        font-size: small;
+    }
+
+    .hotel {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        height: 10vh;
+        gap: 2%;
+    }
+
+    .h5,
+    h5 {
+        font-size: 1rem0;
+    }
+
+    p {
+        margin-left: 0px;
+    }
 
 
+    .col-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        line-height: 3;
+    }
 
+    .page{
+        margin-left: 114px;
+        line-height: 3;
+    }
+
+    .fw-bold {
+        font-weight: 800 !important;
+        font-size: initial;
+    }
+
+    .under{
+        transform: translateY(230px);
+    }
+}
