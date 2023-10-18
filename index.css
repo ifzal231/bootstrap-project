@@ -373,6 +373,10 @@ h2 {
         transform: translateY(235px);
         display: none;
     }
+
+    .food{
+        height: 13vh;
+    }
 }
 
 @media(max-width:450px) {
