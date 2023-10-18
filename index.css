@@ -368,6 +368,13 @@ h2 {
     }
 }
 
+@media(max-width:500px){
+    .under {
+        transform: translateY(235px);
+        display: none;
+    }
+}
+
 @media(max-width:450px) {
     .under {
         bottom: 33.25rem;
